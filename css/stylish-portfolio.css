@@ -267,6 +267,27 @@ h6 {
   font-size: 1.2rem;
 }
 
+@media (max-width: 550px) {
+  .content-section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .products {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 551px) {
+
+  .products {
+    flex: 0 0 33% !important;
+    max-width: 33% !important;
+  }
+}
+
+
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
