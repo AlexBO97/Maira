@@ -267,6 +267,22 @@ h6 {
   font-size: 1.2rem;
 }
 
+.caract_text {
+  padding-right: 5em;
+  padding-top: 1em;
+  width: 70%;
+}
+
+.caract_text span {
+  color: #155d74;
+  font-weight: bold;
+}
+
+.caract_nr span {
+  color: #155d74;
+  font-weight: bold;
+}
+
 @media (max-width: 550px) {
   .content-section {
     padding-left: 1em;
